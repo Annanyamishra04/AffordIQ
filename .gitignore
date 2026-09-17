@@ -1,0 +1,93 @@
+# ---------------------------------------------------------------------------
+# Private challenge data — never commit
+# ---------------------------------------------------------------------------
+dataset/
+datasets/
+data/
+**/media/images/
+*.challenge.csv
+sample_requests.csv
+
+# Human-transcribed image evidence (contains dataset-specific figures).
+# Kept locally so the engine still runs against the private dataset.
+local_evidence/
+image_evidence.json
+**/image_evidence.json
+
+# ---------------------------------------------------------------------------
+# Generated output
+# ---------------------------------------------------------------------------
+output.csv
+demo_output.csv
+*_output.csv
+outputs/
+
+# ...but the synthetic worked example's expected output IS part of the repo.
+!examples/**/expected_output.csv
+log.txt
+*.log
+
+# ---------------------------------------------------------------------------
+# Secrets / credentials
+# ---------------------------------------------------------------------------
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+secrets/
+credentials.json
+service-account*.json
+*_secret*
+*_credentials*
+
+# ---------------------------------------------------------------------------
+# Python
+# ---------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+venv/
+.venv/
+env/
+ENV/
+
+# ---------------------------------------------------------------------------
+# Node / frontend
+# ---------------------------------------------------------------------------
+node_modules/
+frontend/dist/
+frontend/.vite/
+npm-debug.log*
+yarn-error.log*
+
+# ---------------------------------------------------------------------------
+# Editors / OS / temp
+# ---------------------------------------------------------------------------
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
+*~
+.ipynb_checkpoints/
+
+# ---------------------------------------------------------------------------
+# Large / binary artifacts
+# ---------------------------------------------------------------------------
+*.zip
+*.tar.gz
+*.sqlite
+*.db
+*.parquet
