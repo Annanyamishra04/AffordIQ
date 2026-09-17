@@ -1,0 +1,2 @@
+request_id,amount_safe_to_pay,affordability_status,recommended_payment_method,payment_plan,earliest_date_for_full_payment,spending_changes_needed,decision_explanation
+ex_req_1,21960,affordable_with_plan,partial_payment,2025-01-15:21960|2025-01-28:3040,2025-01-28,none,Pay INR 21960 on 2025-01-15 and the remaining INR 3040 on 2025-01-28. This completes the full request and keeps the INR 15000 minimum protected.

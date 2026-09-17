@@ -1,0 +1,7 @@
+payment_option_id,request_id,payment_method,payment_amount,number_of_payments,first_payment_date,payment_frequency_days,financing_fee,total_payable_amount
+demo_opt_1,demo_req_1,full_payment,900.0,1,2025-01-15,,0,900.0
+demo_opt_2,demo_req_1,installments,310.0,3,2025-01-15,30,30.0,930.0
+demo_opt_3,demo_req_2,full_payment,650.0,1,2025-01-15,,0,650.0
+demo_opt_4,demo_req_2,installments,225.0,3,2025-01-15,30,25.0,675.0
+demo_opt_5,demo_req_3,full_payment,500.0,1,2025-01-15,,0,500.0
+demo_opt_6,demo_req_4,full_payment,900.0,1,2025-01-15,,0,900.0

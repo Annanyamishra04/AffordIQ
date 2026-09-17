@@ -1,0 +1,5 @@
+request_id,user_id,request_date,request_type,requested_amount,desired_completion_date,allows_partial_payment,request_text
+demo_req_1,demo_alex,2025-01-15,purchase,900.0,2025-01-29,true,"New laptop for freelance work, USD 900."
+demo_req_2,demo_sam,2025-01-15,purchase,650.0,2025-03-01,true,"Emergency dental work, USD 650."
+demo_req_3,demo_jordan,2025-01-15,purchase,500.0,2025-02-14,false,"Flight ticket, EUR 500."
+demo_req_4,demo_priya,2025-01-15,purchase,900.0,2025-03-16,true,"Used e-bike for commuting, USD 900."

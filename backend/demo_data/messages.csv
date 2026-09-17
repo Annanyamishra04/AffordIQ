@@ -1,0 +1,4 @@
+message_id,user_id,request_id,related_event_id,sent_at,source_type,message_text
+demo_msg_1,demo_sam,,,2025-01-15T09:00:00Z,employer,"Hi, payroll here. Your next paycheck is confirmed at USD 1450.00."
+demo_msg_2,demo_jordan,,,2025-01-15T09:00:00Z,service_provider,Your cloud storage plan renewal is still pending review and has not been charged yet.
+demo_msg_3,demo_priya,,,2025-01-15T09:00:00Z,employer,Payroll confirmation: your biweekly paycheck of USD 900.00 is scheduled as usual.

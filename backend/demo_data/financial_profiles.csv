@@ -1,0 +1,5 @@
+user_id,home_currency,current_available_balance,minimum_balance_to_keep,financial_priorities,expense_categories_to_protect,expense_categories_user_is_willing_to_reduce,expense_categories_user_is_willing_to_stop,payment_methods_user_will_consider,max_installment_months
+demo_alex,USD,6200.0,1500.0,debt_repayment,rent|groceries|debt_repayment,dining|shopping,streaming|delivery_membership,full_payment|installments,6
+demo_sam,USD,1850.0,900.0,rent|education,rent|groceries|education,dining,streaming|gym,full_payment|partial_payment|installments,3
+demo_jordan,EUR,980.0,700.0,debt_repayment,rent|utilities|debt_repayment,shopping|entertainment,cloud_storage,full_payment,
+demo_priya,USD,1200.0,600.0,savings|debt_repayment,rent|groceries,dining,streaming,full_payment|partial_payment|installments,2

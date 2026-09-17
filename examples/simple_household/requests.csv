@@ -1,0 +1,2 @@
+request_id,user_id,request_date,request_type,requested_amount,desired_completion_date,allows_partial_payment,request_text
+ex_req_1,priya,2025-01-15,purchase,25000.0,2025-02-28,true,"Replacement refrigerator, INR 18000."

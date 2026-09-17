@@ -1,0 +1,2 @@
+message_id,user_id,request_id,related_event_id,sent_at,source_type,message_text
+ex_msg_1,priya,,ev_ref_1,2025-01-14T10:00:00Z,merchant,"Your refund request is still pending and has not been credited yet."
